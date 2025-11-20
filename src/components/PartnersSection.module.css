@@ -1,0 +1,142 @@
+.partnersSection {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: var(--color-bg-primary);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-primary-light)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+}
+
+.carouselTrack {
+  display: flex;
+  gap: 3rem;
+  overflow-x: hidden;
+  scroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.partnerCard {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 100px;
+  padding: 1.5rem 2rem;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.partnerCard:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.15);
+}
+
+.partnerLogo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-text-primary);
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  .partnersSection {
+    padding: 4rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .carouselTrack {
+    gap: 2rem;
+  }
+
+  .partnerCard {
+    min-width: 160px;
+    height: 80px;
+    padding: 1rem 1.5rem;
+  }
+
+  .partnerLogo {
+    font-size: 1.125rem;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .partnersSection {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .carouselTrack {
+    gap: 1.5rem;
+  }
+
+  .partnerCard {
+    min-width: 140px;
+    height: 70px;
+    padding: 0.875rem 1.25rem;
+  }
+
+  .partnerLogo {
+    font-size: 1rem;
+  }
+}
+

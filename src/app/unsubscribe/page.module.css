@@ -1,0 +1,29 @@
+.page {
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  padding-top: 80px; /* Account for navbar */
+  padding-bottom: 4rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .page {
+    padding-top: 70px;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding-top: 60px;
+    padding-bottom: 2rem;
+  }
+}
+
+

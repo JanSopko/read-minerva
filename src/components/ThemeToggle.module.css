@@ -1,0 +1,38 @@
+.toggle {
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--color-bg-elevated);
+  border: 2px solid var(--color-border);
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+  z-index: 1000;
+}
+
+.toggle:hover {
+  background: var(--color-primary-subtle);
+  border-color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.toggle:active {
+  transform: scale(0.95);
+}
+
+.togglePlaceholder {
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: transparent;
+}
+

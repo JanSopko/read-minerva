@@ -1,0 +1,215 @@
+{
+  "common": {
+    "language": "Language",
+    "selectLanguage": "Select language"
+  },
+  "nav": {
+    "pricing": "Pricing",
+    "about": "About us",
+    "getStarted": "Get started",
+    "home": "Home"
+  },
+  "home": {
+    "title": "Project Minerva",
+    "subtitle": "A Next.js application with a beautiful blue-themed design system",
+    "toggleTheme": "Try toggling between light and dark modes using the button in the top-right corner!"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Pricing information coming soon...",
+    "sectionTitle": "Choose Your Plan",
+    "billedMonthly": "Billed Monthly",
+    "billedYearly": "Billed Yearly",
+    "currency": "Currency",
+    "perMonth": "per month",
+    "perYear": "per year",
+    "getStarted": "Get Started",
+    "popular": "Popular",
+    "basic": {
+      "name": "Basic",
+      "feature1": "Access to 50+ magazines",
+      "feature2": "Read on 1 device",
+      "feature3": "Ad-supported experience"
+    },
+    "premium": {
+      "name": "Premium",
+      "feature1": "Access to 200+ magazines",
+      "feature2": "Read on 3 devices",
+      "feature3": "Ad-free experience",
+      "feature4": "Offline reading"
+    },
+    "family": {
+      "name": "Family",
+      "feature1": "Access to 500+ magazines",
+      "feature2": "Read on 5 devices",
+      "feature3": "Ad-free experience",
+      "feature4": "Offline reading",
+      "feature5": "Up to 6 family members"
+    }
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "foundingStory": {
+      "title": "Founding story",
+      "content": "Minerva is a digital platform that connects readers, publishers, and magazines in one seamless experience. We provide instant access to hundreds of newspapers and magazines anytime, anywhere. For publishers, we offer simple integrations and valuable insights. For readers, we create an inspiring and convenient space to discover new stories."
+    },
+    "ourMission": {
+      "title": "Our mission",
+      "content": "We believe great stories deserve to be shared and accessible to everyone. Our mission is to help publishers grow, expand readers' horizons, and bridge the gap between creators and their audiences. We are building a place where the love of reading meets innovation and where journalism and creativity truly thrive."
+    },
+    "ourValues": {
+      "title": "Our values",
+      "content": "We believe great stories deserve to be shared and accessible to everyone. Our mission is to help publishers grow, expand readers' horizons, and bridge the gap between creators and their audiences. We are building a place where the love of reading meets innovation and where journalism and creativity truly thrive."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "ceoPosition": "Co-founder and CEO",
+      "cooPosition": "Co-founder and COO",
+      "ctoPosition": "Co-founder and CTO"
+    }
+  },
+  "getStarted": {
+    "title": "Get Started",
+    "subtitle": "Let's get started with Project Minerva!"
+  },
+  "career": {
+    "titleLine1": "Explore Exciting Career",
+    "titleHighlight": "Opportunities",
+    "titleLine2": "with Us",
+    "subtitle": "Discover the power of our feature spotlight and unleash the full potential of our offerings",
+    "imagePlaceholder": "Team Photo Placeholder",
+    "imageAlt": "Team members working together",
+    "sectionTitle": "Shaping a diverse, inclusive, & innovative future together",
+    "sectionText": "us forward. Accessible quality content for everyone, support for creators, commitment to trust and quality, connecting people through stories, and innovation that serves people and creativity.",
+    "benefitsHeader": "Interested in our mission?",
+    "benefitsSubheader": "Explore Our Benefits",
+    "benefits": {
+      "workLife": "Work-life balance & flexibility",
+      "workLifeDesc": "Flexible hours, remote or hybrid work, ability to adjust schedules",
+      "growth": "Growth & learning opportunities",
+      "growthDesc": "Room to develop skills, explore creativity, and shape your career",
+      "paidTime": "Paid time off & leave benefits",
+      "paidTimeDesc": "Generous vacation, sick leave, parental leave etc."
+    },
+    "jobsHeader": "Open Job Positions",
+    "applyNow": "Apply Now",
+    "noJobs": "No positions match the selected categories"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "subtitle": "Any questions or remarks? Just write us a message!",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "optional": "optional",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "submit": "Send Message",
+    "chat": {
+      "title": "Chat with our Assistant",
+      "subtitle": "Quick answers anytime!"
+    },
+    "call": {
+      "title": "Call us directly",
+      "description": "Quick answers anytime!",
+      "phone": "+421 xxx xxx xxx",
+      "location": "Business Center Tower"
+    },
+    "location": {
+      "title": "Our office location",
+      "address1": "Trebišovská 123/1A",
+      "address2": "Trebišov, 07501",
+      "country": "Slovakia"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "sk": "Slovak",
+    "cz": "Czech"
+  },
+  "mission": {
+    "text": "We believe great stories deserve to be shared — and easily accessible to everyone. Our platform brings magazines, publishers, and readers together in one seamless experience. Inspired by the love of reading and the power of connection, we help publishers reach wider audiences while giving readers instant access to a world of knowledge, inspiration, and entertainment. With technology at heart and people at the center, we're building more than just a subscription service — we're creating a place where quality journalism and creativity thrive. For publishers, we offer simple integrations and valuable insights. For readers, we open the door to hundreds of publications, anytime and anywhere. We're proud to support publishers' work, empower readers, and shape the future of magazine publishing — one story at a time."
+  },
+  "devices": {
+    "title": "Access Minerva on Any Device",
+    "desktop": {
+      "title": "Desktop Computer",
+      "description": "Full-featured experience with large screen and keyboard"
+    },
+    "mobile": {
+      "title": "Mobile Phone",
+      "description": "Read on the go with our mobile-optimized interface"
+    },
+    "tablet": {
+      "title": "Tablet",
+      "description": "Perfect balance of portability and reading comfort"
+    }
+  },
+  "partners": {
+    "title": "Trusted by partners"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "footer": {
+    "newsletterTitle": "Subscribe to our newsletter",
+    "emailPlaceholder": "Enter your email",
+    "submit": "Submit",
+    "aboutUs": "About us",
+    "contactUs": "Contact us",
+    "career": "Career",
+    "faq": "FAQ",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "cookies": "Cookies",
+    "legalNotices": "Legal Notices",
+    "account": "Account",
+    "subscribe": "Subscribe",
+    "chooseYourPlan": "Choose Your Plan",
+    "cancelMembership": "Cancel Membership"
+  },
+  "unsubscribe": {
+    "step1": {
+      "header": "Your Current Plan",
+      "reasonPrompt": "Please tell us why you want to cancel:",
+      "reasons": {
+        "needMoreTime": "Need more time to explore the app",
+        "tooExpensive": "It cost too much",
+        "dislikePlan": "I do not like the plan",
+        "needMoreContent": "I need more content",
+        "technicalIssues": "Technical issues",
+        "noReason": "No reason, just cancel",
+        "other": "Other"
+      }
+    },
+    "step2": {
+      "header": "What If we lower the price?",
+      "subheader": "Great stories deserve to be shared, and money should not stand in the way. That is why we are offering 50% off on your personalized plan!",
+      "confirmQuestion": "Are you sure you want to cancel your subscription?",
+      "loseAccessText": "Once your current subscription ends, you will lose access to:",
+      "loseAccessFeatures": [
+        "100+ articles, magazines and news",
+        "Price advantages compare to individual subscriptions",
+        "Family sharing"
+      ],
+      "newPrice": "NEW PRICE - SAVE",
+      "savePercent": "50%",
+      "keepSubscription": "Keep Subscription",
+      "cancelSubscription": "Cancel Subscription"
+    },
+    "step3": {
+      "positive": {
+        "header": "Subscription Retained!",
+        "message": "Great choice! Your next billing periods will be charged at 50% off the regular price. Thank you for staying with MINERVA!",
+        "backToHome": "Back to Home"
+      },
+      "negative": {
+        "header": "Your subscription has been cancelled",
+        "message": "You will not be charged in the future. You can continue using the MINERVA platform until the next billing period.",
+        "accessInfo": "Your subscription remains active until the end of your current billing cycle. After that, you will lose access to premium content.",
+        "backToHome": "Back to Home"
+      }
+    }
+  }
+}

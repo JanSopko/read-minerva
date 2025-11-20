@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.planContainer {
+  margin-bottom: 3rem;
+}
+
+.reasonsSection {
+  margin-top: 3rem;
+}
+
+.reasonsPrompt {
+  font-size: 1.25rem;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.reasonButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.reasonButton {
+  background-color: var(--color-bg-secondary);
+  border: 2px solid var(--color-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.reasonButton:hover {
+  background-color: var(--color-bg-primary);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.15);
+}
+
+.reasonButton:active {
+  transform: translateY(0);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+  }
+
+  .reasonsPrompt {
+    font-size: 1.125rem;
+  }
+
+  .reasonButtons {
+    grid-template-columns: 1fr;
+  }
+
+  .reasonButton {
+    padding: 1.25rem 1.5rem;
+    font-size: 0.938rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  .header {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .reasonsPrompt {
+    font-size: 1rem;
+  }
+
+  .reasonButton {
+    padding: 1rem 1.25rem;
+    font-size: 0.875rem;
+  }
+}
+
+

@@ -1,0 +1,215 @@
+{
+  "common": {
+    "language": "Jazyk",
+    "selectLanguage": "Vyberte jazyk"
+  },
+  "nav": {
+    "pricing": "Cenník",
+    "about": "O nás",
+    "getStarted": "Začať",
+    "home": "Domov"
+  },
+  "home": {
+    "title": "Project Minerva",
+    "subtitle": "Next.js aplikácia s krásnym modrým dizajnovým systémom",
+    "toggleTheme": "Vyskúšajte prepínanie medzi svetlým a tmavým režimom pomocou tlačidla v pravom hornom rohu!"
+  },
+  "pricing": {
+    "title": "Cenník",
+    "subtitle": "Informácie o cenách čoskoro...",
+    "sectionTitle": "Vyberte si váš plán",
+    "billedMonthly": "Mesačné platby",
+    "billedYearly": "Ročné platby",
+    "currency": "Mena",
+    "perMonth": "mesačne",
+    "perYear": "ročne",
+    "getStarted": "Začať",
+    "popular": "Populárne",
+    "basic": {
+      "name": "Základný",
+      "feature1": "Prístup k 50+ časopisom",
+      "feature2": "Čítanie na 1 zariadení",
+      "feature3": "S reklamou"
+    },
+    "premium": {
+      "name": "Premium",
+      "feature1": "Prístup k 200+ časopisom",
+      "feature2": "Čítanie na 3 zariadeniach",
+      "feature3": "Bez reklám",
+      "feature4": "Offline čítanie"
+    },
+    "family": {
+      "name": "Rodinný",
+      "feature1": "Prístup k 500+ časopisom",
+      "feature2": "Čítanie na 5 zariadeniach",
+      "feature3": "Bez reklám",
+      "feature4": "Offline čítanie",
+      "feature5": "Až 6 rodinných členov"
+    }
+  },
+  "aboutUs": {
+    "title": "O nás",
+    "foundingStory": {
+      "title": "Príbeh založenia",
+      "content": "Minerva je digitálna platforma, ktorá spája čitateľov, vydavateľov a časopisy v jednom bezproblémovom zážitku. Poskytujeme okamžitý prístup k stovkám novín a časopisov kedykoľvek a kdekoľvek. Pre vydavateľov ponúkame jednoduché integrácie a cenné poznatky. Pre čitateľov vytvárame inšpirujúci a pohodlný priestor na objavovanie nových príbehov."
+    },
+    "ourMission": {
+      "title": "Naša misia",
+      "content": "Veríme, že skvelé príbehy si zaslúžia byť zdieľané a prístupné pre každého. Našou misiou je pomáhať vydavateľom rásť, rozširovať obzory čitateľov a preklenúť priepasť medzi tvorcami a ich publikom. Budujeme miesto, kde sa láska k čítaniu stretáva s inováciami a kde novinárstvo a kreativita skutočne prekvitajú."
+    },
+    "ourValues": {
+      "title": "Naše hodnoty",
+      "content": "Veríme, že skvelé príbehy si zaslúžia byť zdieľané a prístupné pre každého. Našou misiou je pomáhať vydavateľom rásť, rozširovať obzory čitateľov a preklenúť priepasť medzi tvorcami a ich publikom. Budujeme miesto, kde sa láska k čítaniu stretáva s inováciami a kde novinárstvo a kreativita skutočne prekvitajú."
+    },
+    "team": {
+      "title": "Zoznámte sa s naším tímom",
+      "ceoPosition": "Spoluzakladateľ a CEO",
+      "cooPosition": "Spoluzakladateľ a COO",
+      "ctoPosition": "Spoluzakladateľ a CTO"
+    }
+  },
+  "getStarted": {
+    "title": "Začať",
+    "subtitle": "Poďme začať s Project Minerva!"
+  },
+  "career": {
+    "titleLine1": "Objavte vzrušujúce kariérne",
+    "titleHighlight": "Príležitosti",
+    "titleLine2": "s nami",
+    "subtitle": "Objavte silu našich funkcií a uvoľnite plný potenciál našich ponúk",
+    "imagePlaceholder": "Zástupný symbol tímovej fotografie",
+    "imageAlt": "Členovia tímu pracujúci spoločne",
+    "sectionTitle": "Spoločne vytvárame rozmanitú, inkluzívnu a inovatívnu budúcnosť",
+    "sectionText": "nás posúva vpred. Prístupný kvalitný obsah pre každého, podpora tvorcov, záväzok dôvery a kvality, prepojenie ľudí prostredníctvom príbehov a inovácie, ktoré slúžia ľuďom a kreativite.",
+    "benefitsHeader": "Máte záujem o našu misiu?",
+    "benefitsSubheader": "Preskúmajte naše výhody",
+    "benefits": {
+      "workLife": "Rovnováha medzi pracovným a súkromným životom a flexibilita",
+      "workLifeDesc": "Flexibilné pracovné hodiny, práca na diaľku alebo hybridná, možnosť prispôsobiť si rozvrh",
+      "growth": "Príležitosti na rast a vzdelávanie",
+      "growthDesc": "Priestor na rozvoj zručností, skúmanie kreativity a formovanie kariéry",
+      "paidTime": "Platené voľno a výhody dovolenky",
+      "paidTimeDesc": "Štedré dovolenky, práceneschopnosť, rodičovská dovolenka atď."
+    },
+    "jobsHeader": "Otvorené pracovné pozície",
+    "applyNow": "Uchádzať sa teraz",
+    "noJobs": "Žiadne pozície nezodpovedajú vybraným kategóriám"
+  },
+  "contactUs": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Máte otázky alebo pripomienky? Napíšte nám správu!",
+    "email": "Email",
+    "emailPlaceholder": "vas.email@priklad.sk",
+    "name": "Meno",
+    "namePlaceholder": "Vaše meno",
+    "optional": "voliteľné",
+    "message": "Správa",
+    "messagePlaceholder": "Napíšte svoju správu sem...",
+    "submit": "Odoslať správu",
+    "chat": {
+      "title": "Chatujte s naším asistentom",
+      "subtitle": "Rýchle odpovede kedykoľvek!"
+    },
+    "call": {
+      "title": "Zavolajte nám priamo",
+      "description": "Rýchle odpovede kedykoľvek!",
+      "phone": "+421 xxx xxx xxx",
+      "location": "Business Center Tower"
+    },
+    "location": {
+      "title": "Poloha našej kancelárie",
+      "address1": "Trebišovská 123/1A",
+      "address2": "Trebišov, 07501",
+      "country": "Slovensko"
+    }
+  },
+  "languages": {
+    "en": "Angličtina",
+    "sk": "Slovenčina",
+    "cz": "Čeština"
+  },
+  "mission": {
+    "text": "Veríme, že skvelé príbehy si zaslúžia byť zdieľané — a jednoducho prístupné pre každého. Naša platforma spája časopisy, vydavateľov a čitateľov v jednom bezproblémovom zážitku. Inšpirovaní láskou k čítaniu a silou spojenia pomáhame vydavateľom osloviť širšie publikum a zároveň dávame čitateľom okamžitý prístup k svetu vedomostí, inšpirácie a zábavy. S technológiou v srdci a ľuďmi v centre budujeme viac ako len službu predplatného — vytvárame miesto, kde kvalitná žurnalistika a kreativita prosperujú. Pre vydavateľov ponúkame jednoduché integrácie a cenné poznatky. Pre čitateľov otvárame dvere k stovkám publikácií, kedykoľvek a kdekoľvek. Sme hrdí na to, že podporujeme prácu vydavateľov, posilňujeme čitateľov a formujeme budúcnosť vydávania časopisov — jeden príbeh za druhým."
+  },
+  "devices": {
+    "title": "Prístup k Minerve na akomkoľvek zariadení",
+    "desktop": {
+      "title": "Počítač",
+      "description": "Plnohodnotný zážitok s veľkou obrazovkou a klávesnicou"
+    },
+    "mobile": {
+      "title": "Mobilný telefón",
+      "description": "Čítajte kdekoľvek s naším mobilným rozhraním"
+    },
+    "tablet": {
+      "title": "Tablet",
+      "description": "Perfektná rovnováha prenosnosti a pohodlia pri čítaní"
+    }
+  },
+  "partners": {
+    "title": "Dôverujú nám partneri"
+  },
+  "faq": {
+    "title": "Často kladené otázky"
+  },
+  "footer": {
+    "newsletterTitle": "Prihláste sa k odberu nášho newslettera",
+    "emailPlaceholder": "Zadajte váš email",
+    "submit": "Odoslať",
+    "aboutUs": "O nás",
+    "contactUs": "Kontaktujte nás",
+    "career": "Kariéra",
+    "faq": "FAQ",
+    "privacyPolicy": "Zásady ochrany súkromia",
+    "termsOfUse": "Podmienky používania",
+    "cookies": "Cookies",
+    "legalNotices": "Právne upozornenia",
+    "account": "Účet",
+    "subscribe": "Prihlásiť sa",
+    "chooseYourPlan": "Vyberte si váš plán",
+    "cancelMembership": "Zrušiť členstvo"
+  },
+  "unsubscribe": {
+    "step1": {
+      "header": "Váš Aktuálny Plán",
+      "reasonPrompt": "Prosím, povedzte nám prečo chcete zrušiť:",
+      "reasons": {
+        "needMoreTime": "Potrebujem viac času na preskúmanie aplikácie",
+        "tooExpensive": "Je to príliš drahé",
+        "dislikePlan": "Nepáči sa mi plán",
+        "needMoreContent": "Potrebujem viac obsahu",
+        "technicalIssues": "Technické problémy",
+        "noReason": "Žiadny dôvod, len zrušiť",
+        "other": "Iné"
+      }
+    },
+    "step2": {
+      "header": "Čo keby sme znížili cenu?",
+      "subheader": "Skvelé príbehy si zaslúžia byť zdieľané a peniaze by nemali stáť v ceste. Preto ponúkame 50% zľavu na váš personalizovaný plán!",
+      "confirmQuestion": "Ste si istí, že chcete zrušiť svoje predplatné?",
+      "loseAccessText": "Po skončení vášho aktuálneho predplatného stratíte prístup k:",
+      "loseAccessFeatures": [
+        "100+ článkom, časopisom a správam",
+        "Cenovým výhodám v porovnaní s individuálnymi predplatnými",
+        "Rodinné zdieľanie"
+      ],
+      "newPrice": "NOVÁ CENA - UŠETRITE",
+      "savePercent": "50%",
+      "keepSubscription": "Ponechať Predplatné",
+      "cancelSubscription": "Zrušiť Predplatné"
+    },
+    "step3": {
+      "positive": {
+        "header": "Predplatné Zachované!",
+        "message": "Skvelá voľba! Vaše ďalšie fakturačné obdobia budú účtované so 50% zľavou z bežnej ceny. Ďakujeme, že zostávate s MINERVA!",
+        "backToHome": "Späť na Hlavnú Stránku"
+      },
+      "negative": {
+        "header": "Vaše predplatné bolo zrušené",
+        "message": "V budúcnosti vám nebudú účtované žiadne poplatky. Môžete naďalej používať platformu MINERVA až do ďalšieho fakturačného obdobia.",
+        "accessInfo": "Vaše predplatné zostáva aktívne do konca aktuálneho fakturačného cyklu. Po tom stratíte prístup k prémiovému obsahu.",
+        "backToHome": "Späť na Hlavnú Stránku"
+      }
+    }
+  }
+}

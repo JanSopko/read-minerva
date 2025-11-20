@@ -1,0 +1,109 @@
+.teamMember {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  transition: all 0.3s ease;
+}
+
+.teamMember.reverse {
+  flex-direction: row-reverse;
+}
+
+.photoContainer {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.photo {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.initialsCircle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-primary-light)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initials {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  user-select: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.position {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .teamMember {
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .photoContainer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .initials {
+    font-size: 2rem;
+  }
+
+  .name {
+    font-size: 1.25rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .teamMember,
+  .teamMember.reverse {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .photoContainer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .info {
+    align-items: center;
+  }
+}
+
