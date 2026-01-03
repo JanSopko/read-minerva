@@ -75,7 +75,7 @@ export default function Footer() {
                   <a href="/career">{t.footer.career}</a>
                 </li>
                 <li>
-                  <a href="#faq">{t.footer.faq}</a>
+                  <a href="/#faq">{t.footer.faq}</a>
                 </li>
               </ul>
             </div>
@@ -107,7 +107,7 @@ export default function Footer() {
                   <a href="/account">{t.footer.account}</a>
                 </li>
                 <li>
-                  <a href="/subscribe">{t.footer.subscribe}</a>
+                  <a href="/get-started">{t.footer.subscribe}</a>
                 </li>
                 <li>
                   <a href="/#pricing">{t.footer.chooseYourPlan}</a>

@@ -1,14 +1,16 @@
 "use client";
 
 import { useRef, useEffect, useState } from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import CarouselItem from "./CarouselItem";
+import MrvButton from "./MrvButton";
 import { carouselItems, carouselConfig } from "@/data/carouselData";
 import styles from "./CarouselSection.module.css";
 
 export default function CarouselSection() {
   const { t } = useLanguage();
+  const router = useRouter();
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
   const animationFrameRef = useRef<number>(0);
@@ -80,9 +82,14 @@ export default function CarouselSection() {
 
         {/* Get Started Button - Below Carousel */}
         <div className={styles.buttonWrapper}>
-          <Link href="/get-started" className={styles.getStartedButton}>
+          <MrvButton
+            size="xl"
+            variant="primary"
+            className={styles.getStartedButton}
+            onClick={() => router.push("/get-started")}
+          >
             {t.nav.getStarted}
-          </Link>
+          </MrvButton>
         </div>
       </div>
     </section>

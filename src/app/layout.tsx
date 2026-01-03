@@ -7,7 +7,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Project Minerva",
+  title: "Minerva",
   description: "A Next.js project with blue-themed light/dark mode",
 };
 

@@ -10,7 +10,7 @@
     "home": "Domů"
   },
   "home": {
-    "title": "Project Minerva",
+    "title": "Minerva",
     "subtitle": "Next.js aplikace s krásným modrým designovým systémem",
     "toggleTheme": "Zkuste přepínat mezi světlým a tmavým režimem pomocí tlačítka v pravém horním rohu!"
   },
@@ -70,7 +70,22 @@
   },
   "getStarted": {
     "title": "Začít",
-    "subtitle": "Začněme s Project Minerva!"
+    "subtitle": "Začněme s Minerva!",
+    "modeLogin": "Přihlášení",
+    "modeRegister": "Registrace",
+    "email": "Email",
+    "password": "Heslo",
+    "confirmPassword": "Potvrďte heslo",
+    "planLabel": "Vyberte si plán",
+    "planOptions": {
+      "basic": "Základní",
+      "premium": "Premium",
+      "family": "Rodinný"
+    },
+    "loginCta": "Přihlásit se",
+    "registerCta": "Vytvořit účet",
+    "switchToRegister": "Nemáte účet? Vytvořte si ho",
+    "switchToLogin": "Máte účet? Přihlaste se"
   },
   "career": {
     "titleLine1": "Objevte vzrušující kariérní",
@@ -147,7 +162,31 @@
     }
   },
   "partners": {
-    "title": "Důvěřují nám partneři"
+    "title": "Důvěřují nám partneři",
+    "cta": "Staňte se naším partnerem"
+  },
+  "becomePartner": {
+    "title": "Staňte se partnerem Minervy",
+    "description": "Rostěte rychleji a odlište se na konkurenčním trhu. Prozkoumejte naše partnerské programy, vyberte si ten, který odpovídá vašim cílům, a pojďme společně dosáhnout více.",
+    "b2b": {
+      "title": "B2B partnerský program",
+      "imagePlaceholder": "Zástupný obrázek pro B2B sektor",
+      "paragraph1": "Odemkněte více hodnoty pro vaše zákazníky, hosty nebo zaměstnance díky okamžitému přístupu ke stovkám magazínů.",
+      "paragraph2": "Navrženo pro hotely, knihovny, coworkingy, školy a univerzity, programy firemní péče, dopravce a cestovní uzly; naše řešení přináší prémiový obsah přímo vašemu publiku. Kdykoliv, na jakémkoli zařízení.",
+      "paragraph3": "Vyberte si plně brandované white-label řešení nebo integrujte náš obsah přímo přes API a vytvořte bezproblémový, prémiový čtenářský zážitek."
+    },
+    "publisher": {
+      "title": "Partnerský program pro vydavatele",
+      "imagePlaceholder": "Zástupný obrázek pro sektor vydavatelů",
+      "paragraph1": "Připojte se k našemu partnerskému programu pro vydavatele a přineste svůj obsah širšímu publiku.",
+      "paragraph2": "Naše platforma vám pomůže oslovit více čtenářů, vydělávat na zapojení do článků a získat detailní přehledy o chování čtenářů. Díky dodatečné monetizaci prostřednictvím reklamy můžete růst ve viditelnosti i v podnikání a doručovat svůj obsah tisícům aktivních digitálních čtenářů.",
+      "paragraph3": ""
+    },
+    "contact": {
+      "heading": "Kontaktujte nás a zjistěte více o programu a jeho výhodách.",
+      "line1": "Skvělé příběhy si zaslouží být sdíleny.",
+      "line2": "Pojďme společně formovat budoucnost magazínového publikování."
+    }
   },
   "faq": {
     "title": "Často kladené otázky"

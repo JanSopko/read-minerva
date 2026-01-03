@@ -10,7 +10,7 @@
     "home": "Home"
   },
   "home": {
-    "title": "Project Minerva",
+    "title": "Minerva",
     "subtitle": "A Next.js application with a beautiful blue-themed design system",
     "toggleTheme": "Try toggling between light and dark modes using the button in the top-right corner!"
   },
@@ -70,7 +70,22 @@
   },
   "getStarted": {
     "title": "Get Started",
-    "subtitle": "Let's get started with Project Minerva!"
+    "subtitle": "Let's get started with Minerva!",
+    "modeLogin": "Login",
+    "modeRegister": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "planLabel": "Choose a plan",
+    "planOptions": {
+      "basic": "Basic",
+      "premium": "Premium",
+      "family": "Family"
+    },
+    "loginCta": "Log In",
+    "registerCta": "Create Account",
+    "switchToRegister": "Don't have an account? Create one",
+    "switchToLogin": "Already have an account? Log in"
   },
   "career": {
     "titleLine1": "Explore Exciting Career",
@@ -147,7 +162,31 @@
     }
   },
   "partners": {
-    "title": "Trusted by partners"
+    "title": "Trusted by partners",
+    "cta": "Become our Partner"
+  },
+  "becomePartner": {
+    "title": "Partner With Minerva",
+    "description": "Grow your business faster and stand out in a competitive market. Explore our partner programs, choose the one that fits your goals, and let’s team up to achieve more together.",
+    "b2b": {
+      "title": "B2B Partner Program",
+      "imagePlaceholder": "B2B sector image placeholder",
+      "paragraph1": "Unlock more value for your customers, guests, or employees with instant access to hundreds of magazines.",
+      "paragraph2": "Designed for hotels, libraries, coworking spaces, schools and universities, corporate wellbeing programs, transportation providers, and travel hubs, our solution brings premium content directly to your audience. Anytime, on any device.",
+      "paragraph3": "Choose a fully branded white-label solution or integrate our content directly through API to create a seamless, premium reading experience."
+    },
+    "publisher": {
+      "title": "Publisher Partner Program",
+      "imagePlaceholder": "Publisher sector image placeholder",
+      "paragraph1": "Join our Publisher Partner Program and bring your content to a wider audience.",
+      "paragraph2": "Our platform helps you reach more readers, earn revenue from article engagement, and access detailed insights into reader behavior. With additional monetization through advertising, you can grow both your visibility and your business, while delivering your content to thousands of active digital readers.",
+      "paragraph3": ""
+    },
+    "contact": {
+      "heading": "Contact us to learn more about the program and its benefits.",
+      "line1": "Great stories deserve to be shared.",
+      "line2": "So, let’s shape the future of magazine publishing."
+    }
   },
   "faq": {
     "title": "Frequently Asked Questions"

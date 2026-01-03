@@ -3,14 +3,17 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MrvButton from "./MrvButton";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useLanguage();
   const pathname = usePathname();
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -40,6 +43,11 @@ export default function Navbar() {
     }
   };
 
+  const goToGetStarted = () => {
+    closeMenu();
+    router.push("/get-started");
+  };
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
@@ -58,9 +66,14 @@ export default function Navbar() {
             <Link href="/about-us" className={styles.navLink}>
               {t.nav.about}
             </Link>
-            <Link href="/get-started" className={styles.ctaButton}>
+            <MrvButton
+              size="sm"
+              variant="primary"
+              className={styles.navButton}
+              onClick={goToGetStarted}
+            >
               {t.nav.getStarted}
-            </Link>
+            </MrvButton>
           </div>
 
         {/* Right Section: Language Switcher + Mobile Menu Button */}
@@ -98,13 +111,15 @@ export default function Navbar() {
             >
               {t.nav.about}
             </Link>
-            <Link
-              href="/get-started"
-              className={styles.mobileCtaButton}
-              onClick={closeMenu}
+            <MrvButton
+              size="md"
+              variant="primary"
+              fullWidth
+              className={styles.mobileNavButton}
+              onClick={goToGetStarted}
             >
               {t.nav.getStarted}
-            </Link>
+            </MrvButton>
           </div>
         )}
     </nav>

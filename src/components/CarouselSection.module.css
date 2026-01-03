@@ -63,30 +63,13 @@
 
 /* Get Started Button - Below carousel, bigger */
 .getStartedButton {
-  display: inline-block;
-  padding: 1.5rem 3.5rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-decoration: none;
-  color: white;
-  background: linear-gradient(
-    135deg,
-    var(--color-primary),
-    var(--color-primary-light)
-  );
-  border-radius: 0.75rem;
   box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .getStartedButton:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
-  background: linear-gradient(
-    135deg,
-    var(--color-primary-light),
-    var(--color-primary)
-  );
 }
 
 .carouselTrack {
@@ -121,8 +104,7 @@
   }
 
   .getStartedButton {
-    padding: 1.25rem 3rem;
-    font-size: 1.375rem;
+    transform: none;
   }
 }
 
@@ -148,8 +130,7 @@
   }
 
   .getStartedButton {
-    padding: 1.125rem 2.5rem;
-    font-size: 1.25rem;
+    transform: none;
   }
 }
 

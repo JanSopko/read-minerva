@@ -84,6 +84,12 @@
   white-space: nowrap;
 }
 
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
 /* Tablet styles */
 @media (max-width: 768px) {
   .partnersSection {
@@ -107,6 +113,10 @@
 
   .partnerLogo {
     font-size: 1.125rem;
+  }
+
+  .buttonWrapper {
+    margin-top: 2.5rem;
   }
 }
 
@@ -137,6 +147,10 @@
 
   .partnerLogo {
     font-size: 1rem;
+  }
+
+  .buttonWrapper {
+    margin-top: 2rem;
   }
 }
 

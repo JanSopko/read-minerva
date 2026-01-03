@@ -9,6 +9,7 @@ import {
   Currency,
   BillingPeriod,
 } from "@/data/pricingData";
+import MrvButton from "./MrvButton";
 import styles from "./PricingSection.module.css";
 
 export default function PricingSection() {
@@ -91,9 +92,9 @@ export default function PricingSection() {
               <li>{t.pricing.basic.feature2}</li>
               <li>{t.pricing.basic.feature3}</li>
             </ul>
-            <button className={styles.ctaButton}>
+            <MrvButton variant="outline" size="md" fullWidth>
               {t.pricing.getStarted}
-            </button>
+            </MrvButton>
           </div>
 
           {/* Premium Tier */}
@@ -116,9 +117,9 @@ export default function PricingSection() {
               <li>{t.pricing.premium.feature3}</li>
               <li>{t.pricing.premium.feature4}</li>
             </ul>
-            <button className={`${styles.ctaButton} ${styles.primary}`}>
+            <MrvButton variant="primary" size="md" fullWidth>
               {t.pricing.getStarted}
-            </button>
+            </MrvButton>
           </div>
 
           {/* Family Tier */}
@@ -141,9 +142,9 @@ export default function PricingSection() {
               <li>{t.pricing.family.feature4}</li>
               <li>{t.pricing.family.feature5}</li>
             </ul>
-            <button className={styles.ctaButton}>
+            <MrvButton variant="outline" size="md" fullWidth>
               {t.pricing.getStarted}
-            </button>
+            </MrvButton>
           </div>
         </div>
       </div>

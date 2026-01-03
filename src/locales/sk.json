@@ -10,7 +10,7 @@
     "home": "Domov"
   },
   "home": {
-    "title": "Project Minerva",
+    "title": "Minerva",
     "subtitle": "Next.js aplikácia s krásnym modrým dizajnovým systémom",
     "toggleTheme": "Vyskúšajte prepínanie medzi svetlým a tmavým režimom pomocou tlačidla v pravom hornom rohu!"
   },
@@ -70,7 +70,22 @@
   },
   "getStarted": {
     "title": "Začať",
-    "subtitle": "Poďme začať s Project Minerva!"
+    "subtitle": "Poďme začať s Minerva!",
+    "modeLogin": "Prihlásenie",
+    "modeRegister": "Registrácia",
+    "email": "Email",
+    "password": "Heslo",
+    "confirmPassword": "Potvrďte heslo",
+    "planLabel": "Vyberte si plán",
+    "planOptions": {
+      "basic": "Základný",
+      "premium": "Premium",
+      "family": "Rodinný"
+    },
+    "loginCta": "Prihlásiť sa",
+    "registerCta": "Vytvoriť účet",
+    "switchToRegister": "Nemáte účet? Vytvorte si ho",
+    "switchToLogin": "Máte účet? Prihláste sa"
   },
   "career": {
     "titleLine1": "Objavte vzrušujúce kariérne",
@@ -147,7 +162,31 @@
     }
   },
   "partners": {
-    "title": "Dôverujú nám partneri"
+    "title": "Dôverujú nám partneri",
+    "cta": "Staňte sa naším partnerom"
+  },
+  "becomePartner": {
+    "title": "Staňte sa partnerom Minervy",
+    "description": "Rastite rýchlejšie a odlíšte sa v konkurenčnom prostredí. Preskúmajte naše partnerské programy, vyberte si ten, ktorý zodpovedá vašim cieľom, a poďme spoločne dosiahnuť viac.",
+    "b2b": {
+      "title": "B2B partnerský program",
+      "imagePlaceholder": "Zástupný obrázok pre B2B sektor",
+      "paragraph1": "Odomknite viac hodnoty pre vašich zákazníkov, hostí alebo zamestnancov s okamžitým prístupom k stovkám magazínov.",
+      "paragraph2": "Navrhnuté pre hotely, knižnice, coworkingy, školy a univerzity, programy firemnej starostlivosti, dopravcov a cestovné uzly; naše riešenie prináša prémiový obsah priamo vašemu publiku. Kedykoľvek, na akomkoľvek zariadení.",
+      "paragraph3": "Vyberte si plne brandované white-label riešenie alebo integrujte náš obsah priamo cez API a vytvorte bezproblémový prémiový čitateľský zážitok."
+    },
+    "publisher": {
+      "title": "Partnerský program pre vydavateľov",
+      "imagePlaceholder": "Zástupný obrázok pre sektor vydavateľov",
+      "paragraph1": "Pridajte sa k nášmu partnerskému programu pre vydavateľov a prineste svoj obsah širšiemu publiku.",
+      "paragraph2": "Naša platforma vám pomôže osloviť viac čitateľov, zarábať na interakcii s článkami a získať detailné prehľady o správaní čitateľov. Vďaka dodatočnej monetizácii cez reklamu môžete rásť vo viditeľnosti aj biznise a doručovať obsah tisícom aktívnych digitálnych čitateľov.",
+      "paragraph3": ""
+    },
+    "contact": {
+      "heading": "Kontaktujte nás a zistite viac o programe a jeho výhodách.",
+      "line1": "Skvelé príbehy si zaslúžia byť zdieľané.",
+      "line2": "Poďme spoločne formovať budúcnosť magazínového publikovania."
+    }
   },
   "faq": {
     "title": "Často kladené otázky"

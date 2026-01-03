@@ -103,32 +103,6 @@
   animation: fadeInUp 0.6s ease 0.5s both;
 }
 
-.primaryButton {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
-  color: white;
-  border: none;
-  border-radius: 0.75rem;
-  padding: 1rem 3rem;
-  font-size: 1.125rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
-  text-decoration: none;
-  display: inline-block;
-}
-
-.primaryButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
-}
-
-.primaryButton:active {
-  transform: translateY(0);
-}
-
 /* Responsive styles */
 @media (max-width: 768px) {
   .container {
@@ -156,11 +130,6 @@
 
   .infoText {
     font-size: 0.938rem;
-  }
-
-  .primaryButton {
-    padding: 1rem 2.5rem;
-    font-size: 1rem;
   }
 }
 
@@ -190,12 +159,6 @@
 
   .infoText {
     font-size: 0.875rem;
-  }
-
-  .primaryButton {
-    width: 100%;
-    padding: 0.875rem 2rem;
-    font-size: 0.938rem;
   }
 }
 

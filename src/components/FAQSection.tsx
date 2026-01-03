@@ -16,7 +16,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className={styles.faqSection}>
+    <section className={styles.faqSection} id="faq">
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>{t.faq.title}</h2>
 

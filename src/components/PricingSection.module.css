@@ -210,38 +210,6 @@
   font-size: 1.125rem;
 }
 
-.ctaButton {
-  width: 100%;
-  padding: 1rem 2rem;
-  font-size: 1.125rem;
-  font-weight: 700;
-  border: 2px solid var(--color-primary);
-  border-radius: 0.5rem;
-  background: transparent;
-  color: var(--color-primary);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.ctaButton:hover {
-  background-color: var(--color-primary-subtle);
-  transform: translateY(-2px);
-}
-
-.ctaButton.primary {
-  background: linear-gradient(
-    135deg,
-    var(--color-primary),
-    var(--color-primary-light)
-  );
-  color: white;
-  border: none;
-}
-
-.ctaButton.primary:hover {
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
-}
-
 /* Tablet styles */
 @media (max-width: 968px) {
   .pricingSection {
@@ -320,11 +288,6 @@
 
   .featureList li {
     font-size: 0.938rem;
-  }
-
-  .ctaButton {
-    padding: 0.875rem 1.5rem;
-    font-size: 1rem;
   }
 }
 

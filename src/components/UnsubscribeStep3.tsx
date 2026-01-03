@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
+import MrvButton from "./MrvButton";
 import styles from "./UnsubscribeStep3.module.css";
 
 interface UnsubscribeStep3Props {
@@ -13,6 +14,8 @@ export default function UnsubscribeStep3({
   isPositive,
   t,
 }: UnsubscribeStep3Props) {
+  const router = useRouter();
+
   if (isPositive) {
     // User kept subscription with discount
     return (
@@ -25,9 +28,13 @@ export default function UnsubscribeStep3({
           {t.unsubscribe.step3.positive.message}
         </p>
         <div className={styles.actions}>
-          <Link href="/" className={styles.primaryButton}>
+          <MrvButton
+            size="md"
+            variant="primary"
+            onClick={() => router.push("/")}
+          >
             {t.unsubscribe.step3.positive.backToHome}
-          </Link>
+          </MrvButton>
         </div>
       </div>
     );
@@ -48,9 +55,13 @@ export default function UnsubscribeStep3({
           </p>
         </div>
         <div className={styles.actions}>
-          <Link href="/" className={styles.primaryButton}>
+          <MrvButton
+            size="md"
+            variant="primary"
+            onClick={() => router.push("/")}
+          >
             {t.unsubscribe.step3.negative.backToHome}
-          </Link>
+          </MrvButton>
         </div>
       </div>
     );

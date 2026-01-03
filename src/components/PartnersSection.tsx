@@ -1,7 +1,9 @@
 "use client";
 
 import { useRef, useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import MrvButton from "./MrvButton";
 import styles from "./PartnersSection.module.css";
 
 const partners = [
@@ -16,6 +18,7 @@ const partners = [
 
 export default function PartnersSection() {
   const { t } = useLanguage();
+  const router = useRouter();
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
   const animationFrameRef = useRef<number>(0);
@@ -81,6 +84,16 @@ export default function PartnersSection() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className={styles.buttonWrapper}>
+          <MrvButton
+            size="lg"
+            variant="primary"
+            onClick={() => router.push("/become-our-partner")}
+          >
+            {t.partners.cta}
+          </MrvButton>
         </div>
       </div>
     </section>
