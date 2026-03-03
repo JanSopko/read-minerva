@@ -13,8 +13,8 @@ type MrvButtonProps = {
   fullWidth?: boolean;
   className?: string;
 } & Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, "className" | "type"> & {
-    type?: "button" | "submit" | "reset";
-  };
+  type?: "button" | "submit" | "reset";
+};
 
 const sizeClassMap: Record<MrvButtonSize, string> = {
   xs: styles.sizeXs,
