@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useAuth } from "@/contexts/AuthContext";
@@ -13,7 +13,7 @@ interface SearchResultItem {
   score: number;
 }
 
-export default function SearchPage() {
+function SearchResults() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const { t } = useLanguage();
@@ -97,5 +97,13 @@ export default function SearchPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className={styles.page} />}>
+      <SearchResults />
+    </Suspense>
   );
 }
