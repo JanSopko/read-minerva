@@ -7,7 +7,12 @@
     "pricing": "Ceník",
     "about": "O nás",
     "getStarted": "Začít",
-    "home": "Domů"
+    "home": "Domů",
+    "articles": "Články",
+    "search": "Hledat...",
+    "profile": "Profil",
+    "settings": "Nastavení",
+    "logout": "Odhlásit se"
   },
   "home": {
     "title": "Minerva",
@@ -83,6 +88,9 @@
       "family": "Rodinný"
     },
     "loginCta": "Přihlásit se",
+    "loginLoading": "Přihlašování...",
+    "loginError": "Nesprávný email nebo heslo",
+    "loginNetworkError": "Něco se pokazilo. Zkuste to znovu.",
     "registerCta": "Vytvořit účet",
     "switchToRegister": "Nemáte účet? Vytvořte si ho",
     "switchToLogin": "Máte účet? Přihlaste se"
@@ -187,6 +195,14 @@
       "line1": "Skvělé příběhy si zaslouží být sdíleny.",
       "line2": "Pojďme společně formovat budoucnost magazínového publikování."
     }
+  },
+  "dashboard": {
+    "welcome": "Vítejte zpět!",
+    "articlesTitle": "Vaše články"
+  },
+  "article": {
+    "backToDashboard": "Zpět na přehled",
+    "notFound": "Článek nebyl nalezen"
   },
   "faq": {
     "title": "Často kladené otázky"

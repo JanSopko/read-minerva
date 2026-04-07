@@ -7,7 +7,12 @@
     "pricing": "Pricing",
     "about": "About us",
     "getStarted": "Get started",
-    "home": "Home"
+    "home": "Home",
+    "articles": "Articles",
+    "search": "Search...",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
   },
   "home": {
     "title": "Minerva",
@@ -83,6 +88,9 @@
       "family": "Family"
     },
     "loginCta": "Log In",
+    "loginLoading": "Logging in...",
+    "loginError": "Invalid email or password",
+    "loginNetworkError": "Something went wrong. Please try again.",
     "registerCta": "Create Account",
     "switchToRegister": "Don't have an account? Create one",
     "switchToLogin": "Already have an account? Log in"
@@ -187,6 +195,14 @@
       "line1": "Great stories deserve to be shared.",
       "line2": "So, let’s shape the future of magazine publishing."
     }
+  },
+  "dashboard": {
+    "welcome": "Welcome back!",
+    "articlesTitle": "Your Articles"
+  },
+  "article": {
+    "backToDashboard": "Back to Dashboard",
+    "notFound": "Article not found"
   },
   "faq": {
     "title": "Frequently Asked Questions"

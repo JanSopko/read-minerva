@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useAuth } from "@/contexts/AuthContext";
 import MrvButton from "@/components/MrvButton";
 import styles from "./page.module.css";
 
@@ -9,7 +11,11 @@ type Mode = "login" | "register";
 
 export default function GetStartedPage() {
   const { t } = useLanguage();
+  const { login } = useAuth();
+  const router = useRouter();
   const [mode, setMode] = useState<Mode>("login");
+  const [loginLoading, setLoginLoading] = useState(false);
+  const [loginError, setLoginError] = useState("");
 
   const [loginData, setLoginData] = useState({
     email: "",
@@ -26,9 +32,35 @@ export default function GetStartedPage() {
   const switchToRegister = () => setMode("register");
   const switchToLogin = () => setMode("login");
 
-  const handleLoginSubmit = (e: React.FormEvent) => {
+  const clearLoginError = () => {
+    if (loginError) setLoginError("");
+  };
+
+  const handleLoginSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Login submit", loginData);
+    setLoginError("");
+    setLoginLoading(true);
+
+    try {
+      const res = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(loginData),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        login();
+        router.push("/");
+      } else {
+        setLoginError(t.getStarted.loginError);
+      }
+    } catch {
+      setLoginError(t.getStarted.loginNetworkError);
+    } finally {
+      setLoginLoading(false);
+    }
   };
 
   const handleRegisterSubmit = (e: React.FormEvent) => {
@@ -80,11 +112,13 @@ export default function GetStartedPage() {
                   id="login-email"
                   type="email"
                   value={loginData.email}
-                  onChange={(e) =>
-                    setLoginData((prev) => ({ ...prev, email: e.target.value }))
-                  }
+                  onChange={(e) => {
+                    setLoginData((prev) => ({ ...prev, email: e.target.value }));
+                    clearLoginError();
+                  }}
                   className={styles.input}
                   required
+                  disabled={loginLoading}
                 />
               </div>
 
@@ -96,20 +130,34 @@ export default function GetStartedPage() {
                   id="login-password"
                   type="password"
                   value={loginData.password}
-                  onChange={(e) =>
+                  onChange={(e) => {
                     setLoginData((prev) => ({
                       ...prev,
                       password: e.target.value,
-                    }))
-                  }
+                    }));
+                    clearLoginError();
+                  }}
                   className={styles.input}
                   required
+                  disabled={loginLoading}
                 />
               </div>
 
-              <MrvButton type="submit" size="lg" variant="primary" fullWidth>
-                {t.getStarted.loginCta}
+              <MrvButton
+                type="submit"
+                size="lg"
+                variant="primary"
+                fullWidth
+                disabled={loginLoading}
+              >
+                {loginLoading ? t.getStarted.loginLoading : t.getStarted.loginCta}
               </MrvButton>
+
+              {loginError && (
+                <p className={styles.errorMessage} role="alert">
+                  {loginError}
+                </p>
+              )}
 
               <button
                 type="button"
