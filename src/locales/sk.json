@@ -204,6 +204,14 @@
     "backToDashboard": "Späť na prehľad",
     "notFound": "Článok nebol nájdený"
   },
+  "search": {
+    "resultsFor": "Výsledky vyhľadávania pre",
+    "noResults": "Žiadne články nezodpovedajú vášmu vyhľadávaniu.",
+    "searching": "Vyhľadávanie...",
+    "backToDashboard": "Späť na prehľad",
+    "point": "b",
+    "points": "b"
+  },
   "faq": {
     "title": "Často kladené otázky"
   },

@@ -204,6 +204,14 @@
     "backToDashboard": "Back to Dashboard",
     "notFound": "Article not found"
   },
+  "search": {
+    "resultsFor": "Search results for",
+    "noResults": "No articles match your search.",
+    "searching": "Searching...",
+    "backToDashboard": "Back to Dashboard",
+    "point": "pt",
+    "points": "pts"
+  },
   "faq": {
     "title": "Frequently Asked Questions"
   },

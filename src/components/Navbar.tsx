@@ -13,6 +13,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAuthMenuOpen, setIsAuthMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   const authMenuRef = useRef<HTMLDivElement>(null);
   const { t } = useLanguage();
   const { isAuthenticated, isLoading, logout } = useAuth();
@@ -79,6 +80,13 @@ export default function Navbar() {
     router.push("/");
   };
 
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    const trimmed = searchQuery.trim();
+    if (!trimmed) return;
+    router.push(`/search?q=${encodeURIComponent(trimmed)}`);
+  };
+
   const showAuthNav = !isLoading && isAuthenticated;
 
   return (
@@ -92,13 +100,16 @@ export default function Navbar() {
 
         {showAuthNav ? (
           <div className={styles.desktopNav}>
-            <input
-              type="text"
-              className={styles.searchBar}
-              placeholder={t.nav.search}
-              aria-label={t.nav.search}
-              readOnly
-            />
+            <form onSubmit={handleSearch} className={styles.searchForm}>
+              <input
+                type="text"
+                className={styles.searchBar}
+                placeholder={t.nav.search}
+                aria-label={t.nav.search}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </form>
           </div>
         ) : (
           <div className={styles.desktopNav}>
