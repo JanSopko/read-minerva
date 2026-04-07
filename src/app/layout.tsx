@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ThemeToggle from "@/components/ThemeToggle";
 import ThemeScript from "@/components/ThemeScript";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { AuthProvider } from "@/contexts/AuthContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,10 +24,12 @@ export default function RootLayout({
       </head>
       <body>
         <LanguageProvider>
-          <Navbar />
-          <ThemeToggle />
-          {children}
-          <Footer />
+          <AuthProvider>
+            <Navbar />
+            <ThemeToggle />
+            {children}
+            <Footer />
+          </AuthProvider>
         </LanguageProvider>
       </body>
     </html>

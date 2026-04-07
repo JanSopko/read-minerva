@@ -145,6 +145,92 @@
   align-self: stretch;
 }
 
+/* Search bar (desktop, logged-in nav) */
+.searchBar {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  color: #ffffff;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.searchBar::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.searchBar:focus {
+  border-color: var(--color-primary-light);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Auth hamburger menu */
+.authMenuWrapper {
+  position: relative;
+}
+
+.authMenuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.75rem;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.authMenuButton:hover {
+  color: #ffffff;
+}
+
+.authMenuIcon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.authDropdown {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  right: 0;
+  min-width: 180px;
+  background-color: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  z-index: 200;
+  animation: slideDown 0.25s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.authDropdownItem {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  background: none;
+  border: none;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.authDropdownItem:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-left-color: var(--color-primary);
+}
+
 /* Responsive Breakpoints */
 @media (min-width: 769px) {
   .menuButton {
